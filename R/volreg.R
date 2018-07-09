@@ -33,8 +33,6 @@ run_dimon <- function(infile_pattern, prefix, nslices=NULL, sp=c("FROM_IMAGE", "
   cmd <- dimon(infile_pattern=paste("'", infile_pattern, "'"), dicom_org=TRUE, GERT_Reco=TRUE,
         gert_to3d_prefix=prefix, gert_nz=nslices, sp=sp, quit=TRUE, gert_create_dataset=TRUE)
 
-
-
 }
 
 
